@@ -1,0 +1,49 @@
+body{
+    height: 750px;
+    background-image: url("../dark-paths.jpg");
+  }
+
+#pic1 {
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+
+#pic2 {
+    margin-right: 20px;
+  }
+
+#pic3 {
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+#pic4 {
+    margin-right: 20px;
+  }
+  
+img {
+    margin-right: 15px;
+}
+
+.media {
+  border: 1px solid #dddddd;
+  padding: 10px;
+  background-color: white;
+}
+
+form {
+  padding: 10px;
+}
+
+.footer {
+  position: fixed;
+   left: 0;
+  bottom: 0;
+  padding-top: 20px;
+  width: 100%;
+  background-color: rgb(95, 92, 92);
+  color: white;
+  text-align: center;
+}
