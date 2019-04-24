@@ -3,32 +3,8 @@ body{
     background-image: url("../dark-paths.jpg");
   }
 
-#pic1 {
-    margin-left: 15px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-  }
-
-#pic2 {
-    margin-right: 20px;
-  }
-
-#pic3 {
-    margin-left: 25px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-  }
-
-#pic4 {
-    margin-right: 20px;
-  }
-
-#pic5 {
-  height: 150px;
-  width: 10px;
-}
   
-img {
+#img-front {
     margin-right: 15px;
 }
 
@@ -37,7 +13,7 @@ img {
   padding: 10px;
   background-color: white;
   height: 600px;
-  margin-left: 125px;
+  margin-left: 185px;
 }
 
 form {
@@ -53,4 +29,56 @@ form {
   background-color: rgb(95, 92, 92);
   color: white;
   text-align: center;
+}
+
+@media screen and (max-width: 780px) {
+  .media {
+    margin-left: auto;
+    height: 850px; 
+  }
+
+  img {
+    height: 300px;
+    width: 170px;
+  }
+
+  .img-fluid {
+    margin: 2px;
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+  .media {
+    margin-left: auto;
+    height: 850px; 
+  }
+
+  img {
+    height: 300px;
+    width: 170px;
+  }
+
+  .img-fluid {
+    margin: 2px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .media {
+    margin-left: auto;
+    height: 850px; 
+  }
+
+  img {
+    height: auto;
+    width: 105px;
+  }
+
+  .img-fluid {
+    margin: 2px;
+    margin-right: 10px;
+  }
+
 }
